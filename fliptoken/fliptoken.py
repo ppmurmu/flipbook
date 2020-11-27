@@ -6,6 +6,7 @@ def fliptoken(string: str):
         (re.compile(r"^[0-9]+"), "num"), # integers
         (re.compile(r"[^\s]+(\.(?i)(flip))"), "flipdoc"),
         (re.compile(r"[^\s]+(\.(?i)(gif))"), "gifout"),
+        (re.compile(r"[^\s]+(\.(?i)(pdf))"), "pdfout"),
         (re.compile(r"-o"), "op"), #operators
         (re.compile(r"fc"), "func"), #function
     ]
