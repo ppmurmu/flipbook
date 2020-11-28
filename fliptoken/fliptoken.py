@@ -1,5 +1,6 @@
 import re
 
+#to generate tokens
 def fliptoken(string: str):
     token_rexes = [
         (re.compile(r"[^\s]+(\.(?i)(jpg|png|bmp|jpeg))"), "image"),
@@ -7,7 +8,8 @@ def fliptoken(string: str):
         (re.compile(r"[^\s]+(\.(?i)(flip))"), "flipdoc"),
         (re.compile(r"[^\s]+(\.(?i)(gif))"), "gifout"),
         (re.compile(r"[^\s]+(\.(?i)(pdf))"), "pdfout"),
-        (re.compile(r"-o"), "op"), #operators
+        (re.compile(r"-a"), "apple"),  #applpenewton interpreter
+        (re.compile(r"-o"), "convert"), #flipbook interpreter
         (re.compile(r"fc"), "func"), #function
     ]
 
@@ -26,7 +28,7 @@ def fliptoken(string: str):
                 tokens.append(token)
                 string  = token_rex.sub('', string)
                 string = string.lstrip()
-                break # break out of the inner loop
+                break 
         
         if not matched:
             raise Exception("Invalid String")
