@@ -35,4 +35,10 @@ iii) fc apple.flip -o applenewton.pdf : This command will take the apple.flip fi
                                          newton.
   
   https://youtu.be/tpURgTbVOqc
+  
+  ## How to use it
+  
+  i) run shell.py 
+  ii) Use any compiler command (from above) to execute flip language commands (.flip file)
+  iii) Use ctrl+c to exit from shell.py (compiler)
 
