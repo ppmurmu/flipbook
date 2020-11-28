@@ -7,7 +7,7 @@ change.
 
 
 ## Flipbook compiler
-This repo consist of a compiler built on python to interpret "flip" language.
+This repo consists of a compiler built on python to interpret "flip" language.
 "Flip" language is a language I was supposed to built to do some tasks.
 
 
