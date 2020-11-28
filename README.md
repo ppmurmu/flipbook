@@ -31,5 +31,5 @@ ii) fc human_life_span.flip -o human_life_span.pdf : This command will take the 
 iii) fc apple.flip -o applenewton.pdf : This command will take the apple.flip file as input
                                          and generate a flipbook in pdf format for apple falling on
                                          newton.
-  <iframe width="1280" height="722" src="https://www.youtube.com/embed/tpURgTbVOqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:149.17%;position:relative;"><iframe width="360" height="537" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/4o40vh"></iframe></div><p><a href="https://imgflip.com/gif/4o40vh">via Imgflip</a></p></div>
 
