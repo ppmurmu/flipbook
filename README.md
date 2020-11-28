@@ -13,8 +13,10 @@ This repo consist of a compiler built on python to interpret "flip" language.
 
 ## Flip commands
 The repo consists of .flip files which has code written in flip language.
+
 i) human_life_span.flip : this file has an image name and number of pages to display
                           Eg. - 01 05 child.jpg
+                          
 ii) apple.flip : this file has two image file names 
                  Eg. - apple.png newton.jpg
 
