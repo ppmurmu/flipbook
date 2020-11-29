@@ -1,9 +1,18 @@
-## Flipbook
+# Flipbook
 
 A flip book is a book with a series of pictures that vary gradually
 from one page to the next, so that when the pages are turned rapidly,
 the pictures appear to animate by simulating motion or some other
 change.
+
+## Packages used
+[FPDF](https://pypi.org/project/fpdf/)
+
+[PyPDF2](https://pypi.org/project/PyPDF2/)
+
+[img2pdf](https://pypi.org/project/img2pdf/)
+
+[PIL](https://pypi.org/project/Pillow/)
 
 
 ## Flipbook compiler
